@@ -8,9 +8,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
     <script src="js/sandbox.js"></script>
     <title>Movies DB</title>
+
+    <style>
+        body{
+            background-color: #333;
+        }
+
+        .title, .id{
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
@@ -20,26 +29,27 @@
                 <label for="searchInput">Saissiez le nom de film</label>
                 <input type="text" name ="searchInput" id="searchInput" class="form-control searchInput" >
 
-                <div class="input-group-append w-100">
+                <!-- <div class="input-group-append w-100">
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search by</button>
                     <div class="dropdown-menu">
                         <span class="dropdown-item title" href="#">Title</span>
                         <span class="dropdown-item id" href="#">IMDB ID</span>
                     </div>
-                </div>
+                </div> -->
             </div>
         </form>
 
-        <div class="row cards-parent">
-            <!-- <div class="card col-lg-3 col-md-4 mt-3" >
-               <img src="http://placekitten.com/g/200/300" class="card-img-top" >
+        <div class="row cards-parent justify-content-center">
+            <!-- 
+            <div class="card col-lg-3 col-md-4 mt-3" >
+                <img src="http://placekitten.com/g/200/300" class="card-img-top" >
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
+            </div>
             -->
-          </div>
         </div>
           
     </div>
